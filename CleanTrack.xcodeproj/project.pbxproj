@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8913D12C2E9544E900EC8B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913D12A2E9544E900EC8B3D /* ContentView.swift */; };
 		8913D13A2E955ACC00EC8B3D /* DashboardView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913D1392E955ACC00EC8B3D /* DashboardView.swift.swift */; };
+		8913D13C2E955EEB00EC8B3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913D13B2E955EEB00EC8B3D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8913D11A2E953EBD00EC8B3D /* CleanTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CleanTrack.app; path = "/Users/joseflores/Desktop/CleanTrack/build/Debug-iphoneos/CleanTrack.app"; sourceTree = "<absolute>"; };
-		8913D12A2E9544E900EC8B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8913D1392E955ACC00EC8B3D /* DashboardView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift.swift; sourceTree = "<group>"; };
+		8913D13B2E955EEB00EC8B3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -51,7 +51,6 @@
 		8913D1342E954B7300EC8B3D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8913D12A2E9544E900EC8B3D /* ContentView.swift */,
 				8913D1392E955ACC00EC8B3D /* DashboardView.swift.swift */,
 			);
 			path = Views;
@@ -81,6 +80,7 @@
 		8913D1382E954BCF00EC8B3D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8913D13B2E955EEB00EC8B3D /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8913D12C2E9544E900EC8B3D /* ContentView.swift in Sources */,
+				8913D13C2E955EEB00EC8B3D /* Extensions.swift in Sources */,
 				8913D13A2E955ACC00EC8B3D /* DashboardView.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

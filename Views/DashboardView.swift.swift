@@ -1,5 +1,5 @@
 //
-//  DashboardView.swift.swift
+//  DashboardView.swift
 //  CleanTrack
 //
 //  Created by Jose Flores on 2025-10-07.
@@ -11,15 +11,24 @@ struct DashboardView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 20) {
+                
+                // Título
                 Text("CleanTrack Dashboard")
                     .font(.largeTitle)
                     .bold()
+                
+                // Bienvenida
+                HStack {
+                    Text("Welcome, ")
+                    Text("Jose Flores")
+                        .fontWeight(.bold)
+                }
                 
                 // Estadísticas resumidas
                 HStack {
                     VStack {
                         Text("Total Jobs")
-                        Text("0") // placeholder
+                        Text("16") // placeholder
                             .font(.title)
                     }
                     Spacer()
@@ -30,7 +39,7 @@ struct DashboardView: View {
                     }
                 }
                 .padding()
-                .background(Color.gray.opacity(0.2))
+                .background(Color(hex: "#34C3B8"))
                 .cornerRadius(10)
                 
                 // Botón para agregar nuevo trabajo
@@ -57,5 +66,5 @@ struct DashboardView_Previews: PreviewProvider {
 }
 
 #Preview {
-    DashboardView_swift()
+    DashboardView()
 }
