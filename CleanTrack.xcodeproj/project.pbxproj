@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8913D12C2E9544E900EC8B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913D12A2E9544E900EC8B3D /* ContentView.swift */; };
+		8913D13A2E955ACC00EC8B3D /* DashboardView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913D1392E955ACC00EC8B3D /* DashboardView.swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8913D11A2E953EBD00EC8B3D /* CleanTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CleanTrack.app; path = "/Users/joseflores/Desktop/CleanTrack/build/Debug-iphoneos/CleanTrack.app"; sourceTree = "<absolute>"; };
 		8913D12A2E9544E900EC8B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8913D1392E955ACC00EC8B3D /* DashboardView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				8913D12A2E9544E900EC8B3D /* ContentView.swift */,
+				8913D1392E955ACC00EC8B3D /* DashboardView.swift.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8913D12C2E9544E900EC8B3D /* ContentView.swift in Sources */,
+				8913D13A2E955ACC00EC8B3D /* DashboardView.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
