@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8913D12C2E9544E900EC8B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913D12A2E9544E900EC8B3D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		8913D11A2E953EBD00EC8B3D /* CleanTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8913D11A2E953EBD00EC8B3D /* CleanTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CleanTrack.app; path = "/Users/joseflores/Desktop/CleanTrack/build/Debug-iphoneos/CleanTrack.app"; sourceTree = "<absolute>"; };
+		8913D12A2E9544E900EC8B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +37,49 @@
 		8913D1112E953EBD00EC8B3D = {
 			isa = PBXGroup;
 			children = (
+				8913D1382E954BCF00EC8B3D /* Utilities */,
+				8913D1372E954BC200EC8B3D /* Services */,
+				8913D1362E954BAE00EC8B3D /* ViewModels */,
+				8913D1352E954B9A00EC8B3D /* Models */,
+				8913D1342E954B7300EC8B3D /* Views */,
 				8913D11C2E953EBD00EC8B3D /* CleanTrack */,
-				8913D11B2E953EBD00EC8B3D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8913D11B2E953EBD00EC8B3D /* Products */ = {
+		8913D1342E954B7300EC8B3D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8913D11A2E953EBD00EC8B3D /* CleanTrack.app */,
+				8913D12A2E9544E900EC8B3D /* ContentView.swift */,
 			);
-			name = Products;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8913D1352E954B9A00EC8B3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8913D1362E954BAE00EC8B3D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8913D1372E954BC200EC8B3D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8913D1382E954BCF00EC8B3D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +132,7 @@
 			mainGroup = 8913D1112E953EBD00EC8B3D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8913D11B2E953EBD00EC8B3D /* Products */;
+			productRefGroup = 8913D1112E953EBD00EC8B3D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8913D12C2E9544E900EC8B3D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
